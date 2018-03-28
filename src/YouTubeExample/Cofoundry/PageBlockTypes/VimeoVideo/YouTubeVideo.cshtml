@@ -1,0 +1,10 @@
+﻿@model YouTubeVideoDataModel
+@inject ICofoundryBlockTypeHelper<YouTubeVideoDataModel> Cofoundry
+
+@Cofoundry.BlockType.UseDescription("A simple embedded YouTube video")
+@{ 
+    var embedUrl = "https://www.youtube.com/embed/" + Model.Video.Id + "?rel=0";
+}
+
+<h3>@Model.Video.Title</h3>
+<iframe class="embed-responsive-item" src="@embedUrl" allowfullscreen></iframe>

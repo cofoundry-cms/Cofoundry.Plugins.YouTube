@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cofoundry.Plugins.YouTube", "Cofoundry.Plugins.YouTube\Cofoundry.Plugins.YouTube.csproj", "{C05213B0-8971-44BE-87FA-D6B9A3566532}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{1433BF2B-0BA9-4775-9000-9402C0B68755}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cofoundry.Plugins.YouTube.Domain", "Cofoundry.Plugins.YouTube.Domain\Cofoundry.Plugins.YouTube.Domain.csproj", "{E96DD6DB-D73E-4206-A655-1DF44D57EE79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cofoundry.Plugins.YouTube.Admin", "Cofoundry.Plugins.YouTube.Admin\Cofoundry.Plugins.YouTube.Admin.csproj", "{35EC3BE8-9A9B-4D48-8A7D-54FC34612E43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YouTubeExample", "YouTubeExample\YouTubeExample.csproj", "{A0FC60DB-6C4C-44EA-A3C8-5A12F7230CC0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C05213B0-8971-44BE-87FA-D6B9A3566532}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C05213B0-8971-44BE-87FA-D6B9A3566532}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C05213B0-8971-44BE-87FA-D6B9A3566532}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C05213B0-8971-44BE-87FA-D6B9A3566532}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E96DD6DB-D73E-4206-A655-1DF44D57EE79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E96DD6DB-D73E-4206-A655-1DF44D57EE79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E96DD6DB-D73E-4206-A655-1DF44D57EE79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E96DD6DB-D73E-4206-A655-1DF44D57EE79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35EC3BE8-9A9B-4D48-8A7D-54FC34612E43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35EC3BE8-9A9B-4D48-8A7D-54FC34612E43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35EC3BE8-9A9B-4D48-8A7D-54FC34612E43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35EC3BE8-9A9B-4D48-8A7D-54FC34612E43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0FC60DB-6C4C-44EA-A3C8-5A12F7230CC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0FC60DB-6C4C-44EA-A3C8-5A12F7230CC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0FC60DB-6C4C-44EA-A3C8-5A12F7230CC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0FC60DB-6C4C-44EA-A3C8-5A12F7230CC0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A0FC60DB-6C4C-44EA-A3C8-5A12F7230CC0} = {1433BF2B-0BA9-4775-9000-9402C0B68755}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A1E31E4A-EDD8-4898-B9FA-AE83E5B0CF91}
+	EndGlobalSection
+EndGlobal
