@@ -19,7 +19,7 @@ You can find a full example project named **YouTubeExample** in the solution in 
 
 ```csharp
 using Cofoundry.Domain;
-using Cofoundry.Plugins.Vimeo.Domain;
+using Cofoundry.Plugins.YouTube.Domain;
 using System.ComponentModel.DataAnnotations;
 
 public class YouTubeVideoDataModel : IPageBlockTypeDataModel, IPageBlockTypeDisplayModel
