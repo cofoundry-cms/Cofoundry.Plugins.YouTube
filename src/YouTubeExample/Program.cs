@@ -20,6 +20,10 @@ namespace YouTubeExample
         public static IWebHost BuildWebHost(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
                 .UseStartup<Startup>()
+                .ConfigureAppConfiguration((hostContext, config) =>
+                {
+                    config.AddJsonFile("appsettings.local.json", optional: true);
+                })
                 .Build();
     }
 }

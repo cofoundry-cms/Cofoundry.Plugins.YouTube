@@ -43,16 +43,7 @@ function (
     function onVideoSelected(model) {
 
         if (model) {
-            vm.model = {
-                id: model.id,
-                title: model.title,
-                width: model.width,
-                height: model.height,
-                uploadDate: model.upload_date,
-                thumbnailUrl: model.thumbnailUrl,
-                thumbnailWidth: model.thumbnail_width,
-                thumbnailHeight: model.thumbnail_height
-            };
+            vm.model = model;
         } else {
             vm.model = null;
         }

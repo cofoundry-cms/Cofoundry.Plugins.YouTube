@@ -25,7 +25,7 @@ function (
                 var id;
                 if (model) {
                     id = model.id || model;
-                    scope.videoUrl = $sce.trustAsResourceUrl('http://www.youtube.com/embed/' + id);
+                    scope.videoUrl = $sce.trustAsResourceUrl('https://www.youtube-nocookie.com/embed/' + id);
                 } else {
                     scope.videoUrl = null;
                 }

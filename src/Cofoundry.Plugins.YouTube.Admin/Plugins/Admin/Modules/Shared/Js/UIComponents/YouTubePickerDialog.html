@@ -29,8 +29,17 @@
                                      cms-disabled="isEditingVideoId"
                                      ng-if="!isModelId"></cms-form-field-text>
 
+                <cms-form-field-text-area cms-title="Description"
+                                          cms-model="model.description"
+                                          cms-disabled="isEditingVideoId"
+                                          ng-if="!isModelId"></cms-form-field-text-area>
+
                 <cms-form-field-readonly cms-title="Title"
                                          cms-model="model.title"
+                                         ng-if="isModelId"></cms-form-field-readonly>
+
+                <cms-form-field-readonly cms-title="Description"
+                                         cms-model="model.description"
                                          ng-if="isModelId"></cms-form-field-readonly>
             </cms-form-section>
         </cms-page-body>

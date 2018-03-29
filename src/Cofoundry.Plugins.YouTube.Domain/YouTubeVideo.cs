@@ -20,22 +20,17 @@ namespace Cofoundry.Plugins.YouTube.Domain
         public string Title { get; set; }
 
         /// <summary>
-        /// The default height of the embedded video player.
+        /// Description of the video.
         /// </summary>
-        public int? Height { get; set; }
+        public string Description { get; set; }
 
         /// <summary>
-        /// The date the video was uploaded to YouTube.
+        /// The date the video was published on YouTube.
         /// </summary>
-        public DateTime? UploadDate { get; set; }
+        public DateTimeOffset? PublishDate { get; set; }
 
         /// <summary>
-        /// The default width of the embedded video player.
-        /// </summary>
-        public int? Width { get; set; }
-
-        /// <summary>
-        /// The full url to the default thumbnail image representing the video.
+        /// The full url to the thumbnail image representing the video.
         /// </summary>
         public string ThumbnailUrl { get; set; }
 

@@ -74,13 +74,12 @@ function (
                 cancelEditing();
             }  else {
 
-                //vm.updateIdLoadState.on();
-                //youTubeService
-                //    .getVideoInfo(videoId)
-                //    .then(onInfoLoaded) 
-                //    .catch(onFail)
-                //    .finally(vm.updateIdLoadState.off);
-                onInfoLoaded({id: videoId});
+                vm.updateIdLoadState.on();
+                youTubeService
+                    .getVideoInfo(videoId)
+                    .then(onInfoLoaded) 
+                    .catch(onFail)
+                    .finally(vm.updateIdLoadState.off);
             }
 
             function onFail(response) {
@@ -97,7 +96,7 @@ function (
             }
 
             function triggerOnVideoSelected(info) {
-                    if (vm.onVideoSelected) vm.onVideoSelected({ model: info })
+                if (vm.onVideoSelected) vm.onVideoSelected({ model: info })
             }
 
             function addError(message) {
