@@ -9,7 +9,7 @@ namespace Cofoundry.Plugins.YouTube.Admin
 {
     public class YouTubeApiRouteRegistration : IRouteRegistration
     {
-        public void RegisterRoutes(IRouteBuilder routeBuilder)
+        public void RegisterRoutes(IEndpointRouteBuilder routeBuilder)
         {
             routeBuilder
                 .ForAdminApiController<YouTubeSettingsApiController>("plugins/youtube-settings")
