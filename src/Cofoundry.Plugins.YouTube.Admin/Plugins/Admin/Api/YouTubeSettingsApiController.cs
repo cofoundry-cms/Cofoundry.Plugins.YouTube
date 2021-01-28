@@ -25,7 +25,7 @@ namespace Cofoundry.Plugins.YouTube.Admin
 
         public IActionResult Get()
         {
-            return _apiResponseHelper.SimpleQueryResponse(this, _youtubeSettings);
+            return _apiResponseHelper.SimpleQueryResponse(_youtubeSettings);
         }
     }
 }
