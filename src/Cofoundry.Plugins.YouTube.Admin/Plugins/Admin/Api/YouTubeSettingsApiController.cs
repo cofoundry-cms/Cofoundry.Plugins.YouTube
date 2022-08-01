@@ -2,11 +2,8 @@
 using Cofoundry.Web;
 using Cofoundry.Web.Admin;
 using Microsoft.AspNetCore.Mvc;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace Cofoundry.Plugins.YouTube.Admin
+namespace Cofoundry.Plugins.YouTube.Admin.Plugins.Admin.Api
 {
     public class YouTubeSettingsApiController : BaseAdminApiController
     {

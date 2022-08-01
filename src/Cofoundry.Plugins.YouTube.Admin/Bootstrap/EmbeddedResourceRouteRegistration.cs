@@ -2,11 +2,8 @@
 using Cofoundry.Core.ResourceFiles;
 using Cofoundry.Domain;
 using Cofoundry.Web.Admin;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace Cofoundry.Plugins.YouTube.Admin
+namespace Cofoundry.Plugins.YouTube.Admin.Bootstrap
 {
     public class EmbeddedResourceRouteRegistration : IEmbeddedResourceRouteRegistration
     {
@@ -24,7 +21,7 @@ namespace Cofoundry.Plugins.YouTube.Admin
             var path = RouteConstants.PluginModuleResourcePathPrefix + "Shared/Content/";
             var rewritePath = RelativePathHelper.Combine(_adminSettings.DirectoryName, path);
 
-            yield return new EmbeddedResourcePath(this.GetType().Assembly, path, rewritePath);
+            yield return new EmbeddedResourcePath(GetType().Assembly, path, rewritePath);
         }
     }
 }

@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cofoundry.Plugins.YouTube", "Cofoundry.Plugins.YouTube\Cofoundry.Plugins.YouTube.csproj", "{C05213B0-8971-44BE-87FA-D6B9A3566532}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cofoundry.Plugins.YouTube", "src\Cofoundry.Plugins.YouTube\Cofoundry.Plugins.YouTube.csproj", "{C05213B0-8971-44BE-87FA-D6B9A3566532}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{1433BF2B-0BA9-4775-9000-9402C0B68755}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cofoundry.Plugins.YouTube.Domain", "Cofoundry.Plugins.YouTube.Domain\Cofoundry.Plugins.YouTube.Domain.csproj", "{E96DD6DB-D73E-4206-A655-1DF44D57EE79}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cofoundry.Plugins.YouTube.Domain", "src\Cofoundry.Plugins.YouTube.Domain\Cofoundry.Plugins.YouTube.Domain.csproj", "{E96DD6DB-D73E-4206-A655-1DF44D57EE79}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cofoundry.Plugins.YouTube.Admin", "Cofoundry.Plugins.YouTube.Admin\Cofoundry.Plugins.YouTube.Admin.csproj", "{35EC3BE8-9A9B-4D48-8A7D-54FC34612E43}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cofoundry.Plugins.YouTube.Admin", "src\Cofoundry.Plugins.YouTube.Admin\Cofoundry.Plugins.YouTube.Admin.csproj", "{35EC3BE8-9A9B-4D48-8A7D-54FC34612E43}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YouTubeExample", "YouTubeExample\YouTubeExample.csproj", "{A0FC60DB-6C4C-44EA-A3C8-5A12F7230CC0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YouTubeExample", "src\YouTubeExample\YouTubeExample.csproj", "{A0FC60DB-6C4C-44EA-A3C8-5A12F7230CC0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
