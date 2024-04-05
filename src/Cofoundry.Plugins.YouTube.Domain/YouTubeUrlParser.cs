@@ -10,7 +10,7 @@ public static partial class YouTubeUrlParser
     /// <summary>
     /// Extracts the ID of a video from a YouTube URL.
     /// </summary>
-    /// <see cref="http://stackoverflow.com/questions/3652046/c-sharp-regex-to-get-video-id-from-youtube-and-vimeo-by-url"/>
+    /// <see href="http://stackoverflow.com/questions/3652046/c-sharp-regex-to-get-video-id-from-youtube-and-vimeo-by-url"/>
     /// <param name="youTubeVideoUrl">You tube video URL.</param>
     /// <returns>The id of the YouTube video</returns>
     public static string GetId(string youTubeVideoUrl)
