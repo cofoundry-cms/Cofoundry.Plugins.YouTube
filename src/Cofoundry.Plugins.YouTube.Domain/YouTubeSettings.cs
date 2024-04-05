@@ -1,8 +1,8 @@
-﻿using Cofoundry.Core.Configuration;
+using Cofoundry.Core.Configuration;
 
 namespace Cofoundry.Plugins.YouTube.Domain;
 
 public class YouTubeSettings : PluginConfigurationSettingsBase
 {
-    public string ApiKey { get; set; }
+    public string? ApiKey { get; set; }
 }

@@ -7,7 +7,7 @@
 <h1>@Model.PageTitle</h1>
 
 @(await Cofoundry.Template.Region("Body")
-            .AllowMultipleBlocks()
-            .AllowBlockType<YouTubeVideoDataModel>()
-            .EmptyContentMinHeight(500)
-            .InvokeAsync())
+    .AllowMultipleBlocks()
+    .AllowBlockType<YouTubeVideoDataModel>()
+    .EmptyContentMinHeight(500)
+    .InvokeAsync())
